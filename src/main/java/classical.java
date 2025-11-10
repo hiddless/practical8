@@ -3,10 +3,11 @@ public class classical extends Song {
     public classical(String name, String artist, int releaseYear, String composer) {
         super(name, artist, releaseYear);
         this.producer = composer;
+        this.genre="classic";
     }
     @Override
-    public void playSample() {
-        System.out.println(getName() + ":cllasics time");
+    public void playSampel() {
+        System.out.println(genretag()+""+getName() + ":cllasics time");
     }
     public String getProducer() {
         return producer;
