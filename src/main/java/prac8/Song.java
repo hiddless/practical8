@@ -1,3 +1,5 @@
+package prac8;
+
 public abstract class Song {
     public String name;
     public String artist;

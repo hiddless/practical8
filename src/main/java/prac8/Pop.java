@@ -1,3 +1,5 @@
+package prac8;
+
 public class Pop extends Song {
     private boolean catchyMusic;
     public Pop(String name,String artist,int releaseYear,boolean catchyMusic){

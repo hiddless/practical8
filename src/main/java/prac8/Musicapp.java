@@ -1,3 +1,5 @@
+package prac8;
+
 public class Musicapp {
     public static void main(String[] args) {
         Song song1 = new Pop("fireball", "Pitbull", 2014,true);

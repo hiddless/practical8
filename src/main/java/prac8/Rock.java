@@ -1,3 +1,5 @@
+package prac8;
+
 public class Rock extends Song {
     private boolean hasSolo;
     public Rock(String name, String artist, int releaseYear, boolean hasSolo){
